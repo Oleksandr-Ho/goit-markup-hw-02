@@ -83,10 +83,9 @@ address {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--cl-404bbf);
-  text-decoration-line: underline;
 }
-.mail:hover,
-.mail:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--cl-404bbf);
 }
 /* #endregion */
@@ -139,9 +138,16 @@ address {
   line-height: 1.2;
   color: #2e2f42;
 }
+.team-title {
+  background-color: var(--cl-f4f4fd);
+}
 .text-center {
   text-align: center;
 }
+.background-white {
+  background-color: var(--cl-fff);
+}
+
 /* #endregion */
 /* #region Footer */
 .footer {
